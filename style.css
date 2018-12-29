@@ -138,7 +138,11 @@ section{
 
 .resumeicon{
   color: white;
+}
+
+.resumebackground{
   background-color: #92353F;
+  cursor: pointer;
 }
 
 #aboutimage{
