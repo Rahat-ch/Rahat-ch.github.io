@@ -7,76 +7,67 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <!-- My CSS -->
   <link rel="stylesheet" href="style.css">
 
-  <title>Rahat Chowdhury</title>
-  <!-- Custom fonts for this template -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <title>Rahat Chowdhury Portfolio</title>
 </head>
 
-<body id="page-top">
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact-section">Contact</a>
-          </li>
+<body>
+  <!--home section start  -->
+  <section id="Home">
+    <div class="navWrapper">
+      <nav class="flex-nav">
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-      </div>
+      </nav>
     </div>
-  </nav>
 
-  <!-- Header -->
-  <header class="masthead">
-    <div class="container d-flex h-100 align-items-center">
-      <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0 text-uppercase">Rahat Chowdhury</h1>
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">Full Stack Web Developer, Rapper, Gamer</h2>
-        <a href="#about" class="btn btn-primary js-scroll-trigger">Learn More</a>
-
-        <section class="social-section bg-black">
-
-          <div class="social d-flex justify-content-center">
-            <a href="https://github.com/Rahat-ch" target="_blank" class="mx-2">
-              <i class="fab fa-github"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/rahatc/" target="_blank" class="mx-2">
-              <i class="fab fa-linkedin"></i>
-            </a>
-            <a data-toggle="modal" data-target="#resumeModal" class="mx-2">
-              <i class="far fa-file"></i>
-            </a>
-          </div>
-
-      </div>
-      </section>
+    <div class="jumbotron text-center">
+      <h1 class="display-4">Rahat Chowdhury</h1>
+      <p class="lead">Full Stack <span id="web">Web Developer</span>, Rapper, Gamer</p>
+      <a class="btn btn-primary btn-lg" id="learnMore" href="#About" role="button">Learn more</a>
     </div>
-    </div>
-  </header>
 
-  <!-- About Section -->
-  <section id="about" class="about-section">
+
+      <nav class="socialbar">
+        <a href="https://github.com/Rahat-ch" target="_blank" class="github"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/rahatc/" target="_blank" class="linkedin"><i class="fab fa-linkedin"></i></a>
+        <a data-toggle="modal" data-target="#resumeModal" class="resumeicon"><i class="fas fa-file"></i></a>
+      </nav>
+
+
+  <div class="col-md-6-offset-3 mainImagewrapper">
+    <img id="mainillustraion" class="img-fluid max-width" src="images/main.svg" alt="mainillustraion">
+  </div>
+  </section>
+  <!--home section end  -->
+
+  <!--about section start  -->
+  <section id="About">
+    <div class="navWrapper">
+      <nav class="flex-nav">
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <h2 class="projectHead text-white-50">About Me</h2>
+
     <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <div id="abtBG"></div>
-          <h2 class="text-white mb-4">About Rahat</h2>
+    <div class="row">
+        <div class="col-md-6 aboutChild">
           <p class="text-white-50">I’m a Customer Experience aficionado turned Full-Stack Web Developer. My experience stems from working with clients to solve their issues to now helping create the interfaces in a way that the end user faces the
             least amount of issues possible. My unique skill set gives me the ability to fully understand the user experience as I build my code.
           </p>
@@ -86,124 +77,167 @@
           </p>
 
           <p class="text-white-50">My goal is together my skills in customer experience and web development and help to create the ideal experience for all end users.</p>
-
-          <section class="social-section bg-black">
-
-            <div class="social d-flex justify-content-center">
-              <a href="https://github.com/Rahat-ch" target="_blank" class="mx-2">
-                <i class="fab fa-github"></i>
-              </a>
-              <a href="https://www.linkedin.com/in/rahatc/" target="_blank" class="mx-2">
-                <i class="fab fa-linkedin"></i>
-              </a>
-              <a data-toggle="modal" data-target="#resumeModal" class="mx-2">
-                <i class="far fa-file"></i>
-              </a>
-            </div>
-
         </div>
-  </section>
-
-  </div>
-  </div>
-  </div>
-
+        <div class="col-md-6 aboutChild">
+          <img id="aboutimage" class="img-fluid max-width" src="images/aboutillustration.svg" alt="aboutIllustration">
+        </div>
+    </div>
+</div>
 
   </section>
+  <!--about section end  -->
 
-  <!-- Projects Section -->
-  <section id="projects" class="projects-section bg-light">
+  <section id="projects">
+    <div class="navWrapper">
+      <nav class="flex-nav">
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
 
-    <h2 class="mb-4 text-white text-center">Projects</h2>
+    <h2 class="projectHead">Projects</h2>
 
-    <div class="card-deck">
-      <div class="card">
-        <img class="card-img-top" src="images/1999party.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Party like it's 1999</h5>
-          <p class="card-text">A guessing game with a 90's musical twist!.</p>
-          <a class="btn btn-primary btn-sm" href="https://jixuni.github.io/project_1-groupies-/" target="_blank" role="button">Demo</a>
-          <a class="btn btn-secondary btn-sm" href="https://github.com/jixuni/project_1-groupies-" target="_blank" role="button">Repository</a>
-        </div>
+  <div class="cardWrapper text-center">
+    <div class="row cardRow">
+
+    <div class="col-md-offset-2 col-sm-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Party like it's 1999</h5>
+        <p class="card-text">A collaborative effort project managed by me. An online guessing game that uses Bulma on the front end and two API's on the back end.</p>
+        <a href="https://github.com/jixuni/project_1-groupies-" target="_blank" class="btn btn-primary cardbtn">Repository</a>
+        <a href="https://jixuni.github.io/project_1-groupies-/" target="_blank" class="btn btn-primary cardbtn">Demo</a>
       </div>
-      <div class="card">
-        <img class="card-img-top" src="images/bot.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Liri Bot</h5>
-          <p class="card-text">A Siri like chat bot that takes inputs from the command line.</p>
-          <a class="btn btn-primary btn-sm" href="https://drive.google.com/file/d/1vUrMC2Gve-AZpkZ74TxmMg1kCV5MjmZw/view" target="_blank" role="button">Demo</a>
-          <a class="btn btn-secondary btn-sm" href="https://github.com/Rahat-ch/liriBot" target="_blank" role="button">Repository</a>
-
-        </div>
+    </div>
+    </div>
+    <div class="col-sm-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Bamazon</h5>
+        <p class="card-text">An Amazon store in your Command Line! This app utilizes Node and MySQL to bring you a customer and manager interface for an Amazon Store.</p>
+        <a href="https://github.com/Rahat-ch/Bamazon" target="_blank" class="btn btn-primary cardbtn">Repository</a>
+        <a href="https://drive.google.com/file/d/1shRi-XFYP3JsGvndq9zKP1OuQ4C65Shn/view" target="_blank" class="btn btn-primary cardbtn">Demo</a>
       </div>
-      <div class="card">
-        <img class="card-img-top" src="images/giphy.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Giftastic</h5>
-          <p class="card-text">An app for learning about cars and finding car Gifs!</p>
-          <a class="btn btn-primary btn-sm" href="https://rahat-ch.github.io/GifTastic/" target="_blank" role="button">Demo</a>
-          <a class="btn btn-secondary btn-sm" href="https://github.com/Rahat-ch/GifTastic" target="_blank" role="button">Repository</a>
-
-        </div>
+    </div>
+    </div>
+    <div class="col-sm-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Budgety</h5>
+        <p class="card-text">A budgeting app made with ES5 JavaScript. Coded with functional programming methodologies, this heavily makes use of closures and callbacks. </p>
+        <a href="https://github.com/Rahat-ch/Budgety" target="_blank" class="btn btn-primary cardbtn">Repository</a>
+        <a href="https://rahatcodes.com/Budgety/" target="_blank" class="btn btn-primary cardbtn">Demo</a>
       </div>
+    </div>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-offset-2 col-sm-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Liri Bot</h5>
+        <p class="card-text">A Node JS Command Line App that makes use of three different API's. This bot acts similar to Apple's Siri but takes all input via Command Line.</p>
+        <a href="https://github.com/Rahat-ch/liriBot" target="_blank" class="btn btn-primary cardbtn">Repository</a>
+        <a href="https://drive.google.com/file/d/1vUrMC2Gve-AZpkZ74TxmMg1kCV5MjmZw/view" target="_blank" class="btn btn-primary cardbtn">Demo</a>
+      </div>
+    </div>
+    </div>
+    <div class="col-sm-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Giphy App</h5>
+        <p class="card-text">An app that makes use of the Giphy API as well as the Wikipedia API to create an automobile search engine. This was also build with Jquery and Bootstrap</p>
+        <a href="https://github.com/Rahat-ch/GifTastic" target="_blank" class="btn btn-primary cardbtn">Repository</a>
+        <a href="https://rahatcodes.com/GifTastic/" target="_blank" class="btn btn-primary cardbtn">Demo</a>
+      </div>
+    </div>
+    </div>
+    <div class="col-sm-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Pokemon Trivia</h5>
+        <p class="card-text">A trivia game made with Jquery and love. A timed game that features heavy DOM manipulation and is based on the popular Pokemon franchise</p>
+        <a href="https://github.com/Rahat-ch/Trivia_Game" target="_blank" class="btn btn-primary cardbtn">Repository</a>
+        <a href="https://rahatcodes.com/Trivia_Game/" target="_blank" class="btn btn-primary cardbtn">Demo</a>
+      </div>
+    </div>
+    </div>
+    </div>
+
+  </div>
+
+
+  </section>
+
+  <section id="contact">
+    <div class="navWrapper">
+      <nav class="flex-nav">
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="col-md-6-offset-3 mainImagewrapper">
+
+	<div class="row contactRow">
+		<div class="col-md-3">
+			<div class="contact-info">
+				<img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image"/>
+				<h2>Contact Me</h2>
+				<h4>For employment, freelance work, or consultations.</h4>
+			</div>
+		</div>
+		<div class="col-md-9">
+			<div class="contact-form">
+        <form method="POST" action="https://formspree.io/rahat@rahatcodes.com">
+
+
+				<div class="form-group">
+
+				  <div class="col-sm-10">
+					<input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="name">
+				  </div>
+				</div>
+				<div class="form-group">
+
+				  <div class="col-sm-10">
+					<input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
+				  </div>
+				</div>
+				<div class="form-group">
+
+				  <div class="col-sm-10">
+					<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+				  </div>
+				</div>
+				<div class="form-group">
+
+				  <div class="col-sm-10">
+					<textarea class="form-control" rows="5" id="comment" placeholder="Enter Message" name="message"></textarea>
+				  </div>
+				</div>
+				<div class="form-group">
+				  <div class="col-sm-offset-2 col-sm-10">
+					<button type="submit" class="btn btn-default">Submit</button>
+				  </div>
+				</div>
+			</div>
+      </form>
+		</div>
+	</div>
+
 
     </div>
 
-    <div class="card-deck">
-      <div class="card">
-        <img class="card-img-top" src="images/pikachu.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Pokemon Trivia</h5>
-          <p class="card-text">A trivia game that will test your knowledge on the Pokemon franchise.</p>
-          <a class="btn btn-primary btn-sm" href="https://rahat-ch.github.io/Trivia_Game/" target="_blank" role="button">Demo</a>
-          <a class="btn btn-secondary btn-sm" href="https://github.com/Rahat-ch/Trivia_Game" target="_blank" role="button">Repository</a>
-
-        </div>
-      </div>
-      <div class="card">
-        <img class="card-img-top" src="images/slapsgiving.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Slapsgiving RPG</h5>
-          <p class="card-text">A turn based RPG game based on the sitcom How I met Your Mother.</p>
-          <a class="btn btn-primary btn-sm" href="https://rahat-ch.github.io/unit_4_game/" target="_blank" role="button">Demo</a>
-          <a class="btn btn-secondary btn-sm" href="https://github.com/Rahat-ch/unit_4_game" target="_blank" role="button">Repository</a>
-
-        </div>
-      </div>
-      <div class="card">
-        <img class="card-img-top" src="images/swordaxelance.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Sword, Axe, Lance</h5>
-          <p class="card-text">An online multiplayer Rock, Paper, Scissors experience with real time chat!.</p>
-          <a class="btn btn-primary btn-sm" href="https://rahat-ch.github.io/Sword_Axe_Lance/" target="_blank" role="button">Demo</a>
-          <a class="btn btn-secondary btn-sm" href="https://github.com/Rahat-ch/Sword_Axe_Lance" target="_blank" role="button">Repository</a>
-
-        </div>
-      </div>
-
-    </div>
-
   </section>
-
-  <section class="contact-section bg-black" id="contact-section">
-    <form method="POST" action="https://formspree.io/rahat@rahatcodes.com" class="form-inline d-flex">
-      <div class="myFormcontainter">
-        <h2 class="text-white mb-4">Contact</h2>
-        <input type="text" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="name" name="name" placeholder="Enter your name...">
-        <br>
-        <br>
-        <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" name="email" placeholder="Enter email address...">
-        <br>
-        <br>
-        <textarea class="span6" name="message" rows="6" placeholder="ENTER MESSAGE HERE..." required></textarea>
-        <br>
-        <br>
-        <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
-      </div>
-    </form>
-
-  </section>
-
 
   <!-- Resume Modal -->
   <div class="modal fade" id="resumeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
@@ -224,35 +258,12 @@
     </div>
   </div>
 
-  <footer class="bg-black small text-center text-white-50">
-    <div class="container">
-      <section class="social-section bg-black">
-
-        <div class="social d-flex justify-content-center">
-          <a href="https://github.com/Rahat-ch" target="_blank" class="mx-2">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/rahatc/" target="_blank" class="mx-2">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a data-toggle="modal" data-target="#resumeModal" class="mx-2">
-            <i class="far fa-file"></i>
-          </a>
-        </div>
-
-    </div>
-  </section>
-  <br>
-      Rahat Chowdhury 2019
-    </div>
-  </footer>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <script src="portfolio.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>
 
 </html>
