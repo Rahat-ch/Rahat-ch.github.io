@@ -10,7 +10,7 @@ body{
 }
 
 section{
-  height: 100vh;
+  min-height: 100vh;
 
 }
 
@@ -88,18 +88,6 @@ section{
 
 }
 
-.mainImagewrapper{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#mainillustraion{
-  max-width:45%;
-  max-height:45%;
-  margin-bottom: 10%;
-}
-
 #learnMore{
   border-radius:40px;
   background-color: #6C62FF;
@@ -146,19 +134,21 @@ section{
 }
 
 #aboutimage{
-  max-width:100%;
-  max-height:100%;
+  margin-top: 20%;
+  margin-left: 15%;
+}
+
+.aboutWrapper{
+  margin-top: 2%;
 
 }
 
-#aboutWrapper{
-  max-width:30%;
-  max-height:30%;
-
+.hide{
+  display: none;
 }
 
-.aboutChild{
-  margin-top: 5%;
+.about2{
+  display: none;
 }
 
 .cardWrapper{
@@ -180,6 +170,10 @@ section{
   background-color: white;
   color: black;
   border-radius:40px;
+}
+
+.card-deck{
+  margin-bottom: 2%;
 }
 
 .contact{
@@ -232,4 +226,15 @@ ul{
 
 .projectHead{
   margin-left: 45%;
+  margin-top: 1%;
+}
+
+#toggler{
+  display: none;
+}
+
+@media all and (max-width:500px) {
+  .socialbar{
+    display: none;
+  }
 }

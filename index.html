@@ -21,9 +21,10 @@
   <section id="Home">
     <div class="navWrapper">
       <nav class="flex-nav">
+        <a href="#" class="toggleNav" id="toggler">☰ Menu</a>
         <ul>
           <li><a href="#Home">Home</a></li>
-          <li><a href="#About">About Me</a></li>
+          <li><a href="#About">About</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -43,10 +44,15 @@
         <a data-toggle="modal" data-target="#resumeModal" class="resumebackground"><i class="fas fa-file resumeicon"></i></a>
       </nav>
 
+      <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+              <img id="mainillustraion" class="img-fluid max-width" src="images/main.svg" alt="mainillustraion">
+            </div>
 
-  <div class="col-md-6-offset-3 mainImagewrapper">
-    <img id="mainillustraion" class="img-fluid max-width" src="images/main.svg" alt="mainillustraion">
-  </div>
+        </div>
+    </div>
+
   </section>
   <!--home section end  -->
 
@@ -56,18 +62,17 @@
       <nav class="flex-nav">
         <ul>
           <li><a href="#Home">Home</a></li>
-          <li><a href="#About">About Me</a></li>
+          <li><a href="#About">About</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
 
-    <h2 class="projectHead text-white-50">About Me</h2>
-
-    <div class="container">
+    <div class="container aboutWrapper">
     <div class="row">
-        <div class="col-md-6 aboutChild">
+        <div class="col-md-5 md-offset-1 col-sm-12 col-xs-12">
+          <h2 class="text-white-50">About</h2>
           <p class="text-white-50">I’m a Customer Experience aficionado turned Full-Stack Web Developer. My experience stems from working with clients to solve their issues to now helping create the interfaces in a way that the end user faces the
             least amount of issues possible. My unique skill set gives me the ability to fully understand the user experience as I build my code.
           </p>
@@ -77,11 +82,15 @@
           </p>
 
           <p class="text-white-50">My goal is together my skills in customer experience and web development and help to create the ideal experience for all end users.</p>
+          <div class="row">
+
+          </div>
         </div>
-        <div class="col-md-6 aboutChild">
+        <div class="col-md-5 col-sm-12 col-xs-12 aboutWrapper">
           <img id="aboutimage" class="img-fluid max-width" src="images/aboutillustration.svg" alt="aboutIllustration">
         </div>
     </div>
+    <div class="row"></div>
 </div>
 
   </section>
@@ -92,7 +101,7 @@
       <nav class="flex-nav">
         <ul>
           <li><a href="#Home">Home</a></li>
-          <li><a href="#About">About Me</a></li>
+          <li><a href="#About">About</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -101,42 +110,39 @@
 
     <h2 class="projectHead">Projects</h2>
 
-  <div class="cardWrapper text-center">
-    <div class="row cardRow">
 
-    <div class="col-md-offset-2 col-sm-4">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Party like it's 1999</h5>
-        <p class="card-text">A collaborative effort project managed by me. An online guessing game that uses Bulma on the front end and two API's on the back end.</p>
-        <a href="https://github.com/jixuni/project_1-groupies-" target="_blank" class="btn btn-primary cardbtn">Repository</a>
-        <a href="https://jixuni.github.io/project_1-groupies-/" target="_blank" class="btn btn-primary cardbtn">Demo</a>
+    <div class="container">
+
+        <div class="card-deck">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Party like it's 1999</h5>
+            <p class="card-text">A collaborative effort project managed by me. An online guessing game that uses Bulma on the front end and two API's on the back end.</p>
+            <a href="https://github.com/jixuni/project_1-groupies-" target="_blank" class="btn btn-primary cardbtn">Repository</a>
+            <a href="https://jixuni.github.io/project_1-groupies-/" target="_blank" class="btn btn-primary cardbtn">Demo</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Bamazon</h5>
+            <p class="card-text">An Amazon store in your Command Line! This app utilizes Node and MySQL to bring you a customer and manager interface for an Amazon Store.</p>
+            <a href="https://github.com/Rahat-ch/Bamazon" target="_blank" class="btn btn-primary cardbtn">Repository</a>
+            <a href="https://drive.google.com/file/d/1shRi-XFYP3JsGvndq9zKP1OuQ4C65Shn/view" target="_blank" class="btn btn-primary cardbtn">Demo</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Budgety</h5>
+            <p class="card-text">A budgeting app made with ES5 JavaScript. Coded with functional programming methodologies, this heavily makes use of closures and callbacks. </p>
+            <a href="https://github.com/Rahat-ch/Budgety" target="_blank" class="btn btn-primary cardbtn">Repository</a>
+            <a href="https://rahatcodes.com/Budgety/" target="_blank" class="btn btn-primary cardbtn">Demo</a>
+          </div>
+        </div>
       </div>
-    </div>
-    </div>
-    <div class="col-sm-4">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Bamazon</h5>
-        <p class="card-text">An Amazon store in your Command Line! This app utilizes Node and MySQL to bring you a customer and manager interface for an Amazon Store.</p>
-        <a href="https://github.com/Rahat-ch/Bamazon" target="_blank" class="btn btn-primary cardbtn">Repository</a>
-        <a href="https://drive.google.com/file/d/1shRi-XFYP3JsGvndq9zKP1OuQ4C65Shn/view" target="_blank" class="btn btn-primary cardbtn">Demo</a>
-      </div>
-    </div>
-    </div>
-    <div class="col-sm-4">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Budgety</h5>
-        <p class="card-text">A budgeting app made with ES5 JavaScript. Coded with functional programming methodologies, this heavily makes use of closures and callbacks. </p>
-        <a href="https://github.com/Rahat-ch/Budgety" target="_blank" class="btn btn-primary cardbtn">Repository</a>
-        <a href="https://rahatcodes.com/Budgety/" target="_blank" class="btn btn-primary cardbtn">Demo</a>
-      </div>
-    </div>
-    </div>
-    </div>
-    <div class="row">
-    <div class="col-md-offset-2 col-sm-4">
+</div>
+
+<div class="container">
+      <div class="card-deck">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Liri Bot</h5>
@@ -145,8 +151,6 @@
         <a href="https://drive.google.com/file/d/1vUrMC2Gve-AZpkZ74TxmMg1kCV5MjmZw/view" target="_blank" class="btn btn-primary cardbtn">Demo</a>
       </div>
     </div>
-    </div>
-    <div class="col-sm-4">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Giphy App</h5>
@@ -155,8 +159,6 @@
         <a href="https://rahatcodes.com/GifTastic/" target="_blank" class="btn btn-primary cardbtn">Demo</a>
       </div>
     </div>
-    </div>
-    <div class="col-sm-4">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Pokemon Trivia</h5>
@@ -165,10 +167,8 @@
         <a href="https://rahatcodes.com/Trivia_Game/" target="_blank" class="btn btn-primary cardbtn">Demo</a>
       </div>
     </div>
-    </div>
-    </div>
-
   </div>
+</div>
 
 
   </section>
@@ -178,64 +178,66 @@
       <nav class="flex-nav">
         <ul>
           <li><a href="#Home">Home</a></li>
-          <li><a href="#About">About Me</a></li>
+          <li><a href="#About">About</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
 
-    <div class="col-md-6-offset-3 mainImagewrapper">
 
-	<div class="row contactRow">
-		<div class="col-md-3">
-			<div class="contact-info">
-				<img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image"/>
-				<h2>Contact Me</h2>
-				<h4>For employment, freelance work, or consultations.</h4>
-			</div>
-		</div>
-		<div class="col-md-9">
-			<div class="contact-form">
+<div class="container">
+  <div class="row contactRow">
+    <div class="col-md-3">
+      <div class="contact-info">
+        <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image"/>
+        <h2>Contact Me</h2>
+
+      </div>
+    </div>
+    <div class="col-md-9">
+      <div class="contact-form">
         <form method="POST" action="https://formspree.io/rahat@rahatcodes.com">
 
 
-				<div class="form-group">
+        <div class="form-group">
 
-				  <div class="col-sm-10">
-					<input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="name">
-				  </div>
-				</div>
-				<div class="form-group">
+          <div class="col-sm-10">
+          <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="name">
+          </div>
+        </div>
+        <div class="form-group">
 
-				  <div class="col-sm-10">
-					<input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
-				  </div>
-				</div>
-				<div class="form-group">
+          <div class="col-sm-10">
+          <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
+          </div>
+        </div>
+        <div class="form-group">
 
-				  <div class="col-sm-10">
-					<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-				  </div>
-				</div>
-				<div class="form-group">
+          <div class="col-sm-10">
+          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+          </div>
+        </div>
+        <div class="form-group">
 
-				  <div class="col-sm-10">
-					<textarea class="form-control" rows="5" id="comment" placeholder="Enter Message" name="message"></textarea>
-				  </div>
-				</div>
-				<div class="form-group">
-				  <div class="col-sm-offset-2 col-sm-10">
-					<button type="submit" class="btn btn-default">Submit</button>
-				  </div>
-				</div>
-			</div>
+          <div class="col-sm-10">
+          <textarea class="form-control" rows="5" id="comment" placeholder="Enter Message" name="message"></textarea>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+          <button type="submit" class="btn btn-default">Submit</button>
+          </div>
+        </div>
+      </div>
       </form>
-		</div>
-	</div>
-
-
     </div>
+  </div>
+</div>
+
+
+
+
 
   </section>
 
@@ -264,6 +266,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
