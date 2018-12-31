@@ -233,8 +233,60 @@ ul{
   display: none;
 }
 
-@media all and (max-width:500px) {
+.mobileNav{
+  display: none;
+}
+
+.togglerShow{
+  display: flex;
+}
+
+@media all and (max-width:600px) {
   .socialbar{
     display: none;
   }
+
+  .flex-nav ul {
+
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    list-style: none;
+    flex-direction: column;
+
+
+  }
+
+  #toggler{
+    display: inline-block;
+  }
+
+  #items {
+
+    display: none;
+
+
+  }
+
+  .flex-nav a {
+    color: #191b1b;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding:20px 5px;
+    display: inline;
+    width: 100%;
+    text-align: center;
+    transition:all 0.5s;
+  }
+
+  #mobilegit{
+    color: white;
+  }
+
+  #mobilelink{
+    color: white;
+  }
+
 }
