@@ -73,6 +73,7 @@ section{
   background: #6C62FF;
   text-decoration: none;
   color: white;
+  border-radius:40px;
 }
 
 #web{
@@ -86,6 +87,14 @@ section{
   padding-bottom: 0;
   letter-spacing: 2px;
 
+}
+
+
+
+#mainillustraion{
+  height: 80%;
+  width: 80%;
+  margin-left: 10%;
 }
 
 #learnMore{
@@ -167,7 +176,7 @@ section{
 }
 
 .cardbtn{
-  background-color: white;
+  background-color: white;s
   color: black;
   border-radius:40px;
 }
